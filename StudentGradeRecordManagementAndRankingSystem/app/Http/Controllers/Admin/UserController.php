@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     public function maincontent(){
-        return view('admin.users_list', ["msg"=>"This is users page"]);
+        return view('admin.users_list', ["mssg"=>"This is users page"]);
     }
 }
